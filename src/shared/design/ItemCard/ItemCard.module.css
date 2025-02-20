@@ -1,0 +1,26 @@
+.card {
+  font-size: 0.8em;
+
+  .image {
+    position: relative;
+  }
+
+  .description {
+    font-size: 1.2em;
+
+    & > * {
+      margin: 0.5em 0;
+    }
+
+    .name {
+    }
+
+    .type {
+      opacity: 60%;
+    }
+
+    .price {
+      font-style: italic;
+    }
+  }
+}

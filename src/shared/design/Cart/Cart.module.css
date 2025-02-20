@@ -1,0 +1,48 @@
+.Cart {
+  display: flex;
+  flex-direction: column;
+  min-width: 12em;
+  max-width: 12em;
+  height: 100%;
+  padding: 1.5em;
+  overflow: hidden auto;
+  border-left: solid gray 1px;
+  align-items: center;
+  box-sizing: border-box;
+
+  .title {
+    padding-bottom: 1em;
+  }
+
+  .items {
+    justify-items: center;
+
+    .item {
+      justify-items: center;
+
+      .name {
+        max-width: 7em;
+        text-align: center;
+      }
+
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 5em;
+        padding: 0.4em 0.2em;
+
+        .quantity {
+          text-align: center;
+        }
+
+        .button {
+          border-radius: 1em;
+          border: none;
+          width: 1.5em;
+          height: 1.5em;
+        }
+      }
+    }
+  }
+}

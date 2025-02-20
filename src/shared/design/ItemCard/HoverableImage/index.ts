@@ -1,0 +1,1 @@
+export { HoverableImage } from "./HoverableImage";

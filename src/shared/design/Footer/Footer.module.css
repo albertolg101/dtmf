@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+
+  .hr {
+    width: 100%;
+    opacity: 30%;
+  }
+
+  .p {
+    opacity: 70%;
+  }
+
+  .a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

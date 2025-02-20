@@ -1,0 +1,25 @@
+.soldTag,
+.addToCartButton {
+  position: absolute;
+  bottom: 1.5em;
+  left: 2em;
+  color: white;
+  background: black;
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: 20px;
+  width: fit-content;
+  font-family: inherit;
+}
+
+.soldTag {
+  background: gray;
+}
+
+.addToCartButton {
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

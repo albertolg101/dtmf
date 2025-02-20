@@ -1,0 +1,6 @@
+.page {
+  flex-grow: 1;
+  overflow: hidden auto;
+  display: flex;
+  flex-direction: column;
+}

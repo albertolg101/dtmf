@@ -1,0 +1,17 @@
+header .nav {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 3em 5em;
+  align-items: center;
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 5em;
+    gap: 0.8em;
+    font-size: 1.5em;
+  }
+}
